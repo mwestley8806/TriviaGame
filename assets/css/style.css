@@ -1,0 +1,31 @@
+#title {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: purple;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#game {
+    background: lightgray;
+    text-align: center;
+    color: blue;
+    font-family: 'Varela Round', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 25px;
+}
+
+#prizes {
+    background: goldenrod;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#money {
+    background: red;
+    width: 25%;
+    height: auto;
+    margin-top: 15px;
+}

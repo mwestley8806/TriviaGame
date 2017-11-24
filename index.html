@@ -4,8 +4,58 @@
     <head>
         <meta charset = "UTF-8">
         <title>Trivia Game</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">  
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+        <style>
+            body {
+                background-color: lightgreen;
+            }
+        </style>
     </head>
 
+    <body>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <div id=container>
+            <div class="col-md-12">
+                <h1 id="title">It's Time for... Theme Park Trivia!</h1>
+            </div>
+            <div class="row">
+            <div class="col-md-2">
+                <h1>pic</h1>
+            </div>
+            <div class="col-md-8" id="game">
+                <p>Welcome to Theme Park trivia! Your goal is simple, answer questions about theme parks! You have
+                    10 seconds to answer and for each question you answer correctly you receive an item from the park, 
+                    once you find 10 items you win!
+                    However for each question you answer wrong you must pay to stay in the game and once you run out 
+                    of money, you lose! Have fun!
+                </p>
+                <button type="button" class="btn btn-info">Click Here to begin the Game!</button>
+            </div>
+            <div class="col-md-2">
+                <h1>pic</h1>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10" id="prizes">
+                <h1>prizes</h1>
+            </div>
+            <div class="col-md-1"></div>
+            </div>
+            <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6" id="money">
+                <img src="assets/images/money.png">
+            </div>
+            <div class="col-md-3"></div>
+            </div>
 
+        </div>
+
+
+    </body>
 
 </html>
