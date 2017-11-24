@@ -21,11 +21,40 @@
     background: goldenrod;
     text-align: center;
     margin-top: 25px;
+    padding: 10px;
 }
 
 #money {
-    background: red;
-    width: 25%;
-    height: auto;
+    background: blue;
     margin-top: 15px;
+    text-align: center;
+    padding: 7px;
+}
+
+#money2 {
+    background: green;
+    margin-top: 15px;
+    text-align: center;
+    padding: 7px;  
+}
+
+#money3 {
+    background: yellow;
+    margin-top: 15px;
+    text-align: center;
+    padding: 7px;
+}
+
+#money4 {
+    background: orange;
+    margin-top: 15px;
+    text-align: center;
+    padding: 7px;
+}
+
+#money5 {
+    background: red;
+    margin-top: 15px;
+    text-align: center;
+    padding: 7px;
 }
