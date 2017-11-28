@@ -24,6 +24,7 @@
     padding: 10px;
 }
 
+
 #money {
     background: blue;
     margin-top: 15px;
@@ -57,4 +58,9 @@
     margin-top: 15px;
     text-align: center;
     padding: 7px;
+}
+
+#map {
+    width: 10%;
+    height: auto;
 }
